@@ -1,0 +1,92 @@
+/* Research page: only affects pages with <body class="research-page"> */
+
+body.research-page main {
+  background: #f3f4f6;
+  padding: 2.5rem 1rem;
+}
+
+body.research-page .research-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+body.research-page .research-hero {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  margin-bottom: 1.5rem;
+}
+
+body.research-page .research-hero h2 {
+  margin: 0 0 0.75rem;
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+}
+
+body.research-page .research-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+body.research-page .card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  border-left: 6px solid #111827;
+}
+
+body.research-page .card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+body.research-page ul,
+body.research-page ol {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+body.research-page li {
+  margin-bottom: 0.5rem;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  body.research-page .research-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* ===== LANGUAGE TOGGLE ===== */
+
+/* Hide Polish by default */
+.lang.pl {
+  display: none;
+}
+
+/* Button style */
+.lang-btn {
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  border: none;
+  background: #111827;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.lang-btn:hover {
+  opacity: 0.9;
+}
+/* Hide Polish and Russian by default */
+.lang.pl,
+.lang.ru {
+  display: none;
+}
+

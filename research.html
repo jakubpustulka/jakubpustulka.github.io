@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Research | Jakub Pustułka</title>
+
+  <!-- 1) Main site CSS (keeps the SAME header + nav vibe as Main.html) -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- 2) Research-only CSS (changes ONLY content below) -->
+  <link rel="stylesheet" href="styles1.css" />
+</head>
+
+<body class="research-page">
+  <!-- Keep the same header structure as Main.html -->
+  <header>
+    <h1>Jakub Andrzej Pustułka</h1>
+    <p>Geography & History Student · Russian & Slavic Studies Enthusiast</p>
+    <p>Polish – English – Russian (A1 → A2/B1 in progress)</p>
+  </header>
+
+  <!-- Same nav as Main.html (same links) -->
+  <nav>
+    <a href="index.html#about">About</a>
+    <a href="research.html">Research</a>
+    <a href="Main.html#russian">Russian Journey</a>
+    <a href="Main.html#projects">Projects</a>
+    <a href="Main.html#teaching">Teaching & Translation</a>
+    <a href="Main.html#cv">CV</a>
+    <a href="Main.html#contact">Contact</a>
+  </nav>
+
+  <!-- Different content layout below -->
+  <main class="research-content">
+    <!-- LANGUAGE TOGGLE BUTTON (PUT HERE) -->
+<button id="langToggle" class="lang-btn">
+  🇵🇱 Polski
+</button>
+    <section class="research-hero">
+      <h2>Research</h2>
+      <!-- ENGLISH -->
+<p class="lang en">
+  My research focuses on the interaction between history, geography, and language
+  in Eastern Europe, with a growing emphasis on Russia.
+</p>
+
+<!-- POLISH -->
+<p class="lang pl">
+  Moje badania koncentrują się na relacjach między historią, geografią i językiem
+  w Europie Wschodniej, ze szczególnym uwzględnieniem Rosji.
+</p>
+
+<!-- RUSSIAN (YOU WRITE THIS) -->
+<p class="lang ru">
+  Мои исследования сосредоточены на взаимодействии истории, географии и языка
+  в Восточной Европе, с особым вниманием к России.
+</p>
+
+
+    </section>
+
+    <section class="research-grid">
+      <article class="card">
+        <h3>Key Themes</h3>
+        <ul>
+          <li>Historical geography of the former Soviet Union</li>
+          <li>Memory, identity, and narratives in Poland & Russia</li>
+          <li>Geopolitics and regional development in the Russian Federation</li>
+          <li>Comparative Slavic cultures and languages</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Working Questions</h3>
+        <ol>
+          <li>How do post-1945 borders shape collective memory?</li>
+          <li>How are national histories framed differently?</li>
+          <li>What role does geography play in political narratives?</li>
+        </ol>
+      </article>
+
+      <article class="card">
+        <h3>Methods & Skills (developing)</h3>
+        <ul>
+          <li>Reading academic sources (English + Polish; Russian in progress)</li>
+          <li>Basic source analysis & note systems</li>
+          <li>Mapping & spatial thinking (Geography)</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Next Steps</h3>
+        <ul>
+          <li>Start using Russian-language sources as proficiency grows</li>
+          <li>Build a small annotated bibliography</li>
+          <li>Write short research summaries for this site</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Jakub Andrzej Pustułka. All rights reserved.
+  </footer>
+
+  <!-- Main site JS (year etc). This is fine. -->
+  <script src="script1.js"></script>
+
+  <!-- Optional research-only JS -->
+  <!-- <script src="research.js"></script> -->
+</body>
+</html>
